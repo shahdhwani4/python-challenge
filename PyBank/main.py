@@ -107,7 +107,6 @@ def main(inputFile, outputFile):
 
 # path to the input csv file
 inputFile = os.path.join('Resources', 'budget_data.csv')
-print(inputFile)
 # path to the output text file
 outputFile = os.path.join('analysis', 'output.txt')
 main(inputFile, outputFile)

@@ -80,6 +80,5 @@ def main(inputFile, outputFile):
 # path to the input csv file
 inputFile = os.path.join('Resources', 'election_data.csv')
 # path to the output text file
-outputFile = "./analysis/output.txt"
 outputFile = os.path.join('analysis', 'output.txt')
 main(inputFile, outputFile)

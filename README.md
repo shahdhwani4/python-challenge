@@ -20,11 +20,14 @@ Python script to analyze data for:
 
 ### Instructions
 #### Steps to execute PyBank/main.py file:
-1. conda activate dev
-2. cd python-challenge/PyBank
-3. python main.py
+1. open Terminal 
+2. Activate dev Enviorment: type `conda activate dev`
+3. go to `cd python-challenge/PyBank`
+4. Run `python main.py` 
 
 #### Steps to execute PyPoll/main.py file:
-1. conda activate dev
-2. cd python-challenge/PyPoll
-3. python main.py
+1. open Terminal 
+2. Activate dev Enviorment: type `conda activate dev`
+3. go to `cd python-challenge/PyPoll`
+4. Run `python main.py`
+
