@@ -28,7 +28,7 @@ def calculateTotal(budgetData):
   for monthData in budgetData:
     total = total + int(monthData[1])
 
-  return "Total: " + str(total)
+  return "Total: $" + str(total)
 
 # Compute monthly changes in Profit/Losses
 def computeMonthlyChanges(budgetData):
@@ -52,7 +52,7 @@ def calculateAverageChange(monthlyChanges):
     totalChange += monthlyChange[1]
   
   avg = format(totalChange / totalNumberOfMonthsForAvg, ".2f")  
-  return "Average change: " + avg
+  return "Average change: $" + avg
 
 # The greatest increase in profits (date and amount) over the entire period
 def calculateGreatestIncreaseInProfits(monthlyChanges):
@@ -65,7 +65,7 @@ def calculateGreatestIncreaseInProfits(monthlyChanges):
     if currentMonthChange > greatestIncreaseChange:
       greatestIncrease = monthlyChange
   
-  return "Greatest Increase in Profits: " + greatestIncrease[0] + " (" + str(greatestIncrease[1]) + ")"
+  return "Greatest Increase in Profits: " + greatestIncrease[0] + " ($" + str(greatestIncrease[1]) + ")"
 
 # The greatest decrease in profits (date and amount) over the entire period
 def calculateGreatestDecreaseInProfits(monthlyChanges):
@@ -78,7 +78,7 @@ def calculateGreatestDecreaseInProfits(monthlyChanges):
     if currentMonthChange < greatestDecreaseChange:
       greatestDecrease = monthlyChange
   
-  return "Greatest Decrease in Profits: " + greatestDecrease[0] + " (" + str(greatestDecrease[1]) + ")"
+  return "Greatest Decrease in Profits: " + greatestDecrease[0] + " ($" + str(greatestDecrease[1]) + ")"
 
 # Write output to file and terminal
 def writeOutputToTerminalAndFile(outputFile, resultsToPrint):
