@@ -8,15 +8,15 @@ Python script to analyze data for:
 
 
 ### File Structure
-- PyBank
- - main.py: main python script file for PyBank 
- - Resources/budget_data.csv: data file to analyze
- - analysis/output.txt: Generated output file by main.py 
+#### PyBank
+- main.py: main python script file for PyBank 
+- Resources/budget_data.csv: data file to analyze
+- analysis/output.txt: Generated output file by main.py 
 
-- PyPoll
- - main.py: main python script file for Pypoll
- - Resources/election_data.csv: data file to analyze
- - analysis/output.txt: Generated output file by main.py 
+#### PyPoll
+- main.py: main python script file for Pypoll
+- Resources/election_data.csv: data file to analyze
+- analysis/output.txt: Generated output file by main.py 
 
 ### Instructions
 #### Steps to execute PyBank/main.py file:
